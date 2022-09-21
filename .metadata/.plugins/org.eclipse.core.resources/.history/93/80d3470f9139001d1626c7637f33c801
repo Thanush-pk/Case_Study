@@ -1,0 +1,10 @@
+package com.sonata.mvc.repository;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+//@ComponentScan({"com.sonata.controller"})
+
+public interface ProductRepository extends JpaRepository<Product, Long> {
+
+}
