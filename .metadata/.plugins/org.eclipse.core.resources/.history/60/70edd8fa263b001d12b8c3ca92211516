@@ -1,0 +1,9 @@
+package com.sonata.mvc.repository;
+
+//import org.springframework.data.jpa.repository.JpaRepository;
+
+//import com.sonata.mvc.model.Products;
+
+public interface CartRepository extends JpaRepository<Carts, Long> {
+
+}
